@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T13:01:43.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" version="21.6.8" etag="kog0c3aGaZuNa4NaGEkb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T13:04:21.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="CEQsiieln02h-SPv9mTR" version="21.6.8" type="github">
   <diagram name="Page-1" id="QJOEYCSLqYLVN1eVIgFy">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-2" value="AsBank Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="740" y="170" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-3" value="Accounts &lt;br&gt;Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-4" value="SYNCDB Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-5" value="AccountModifications &lt;br&gt;Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
