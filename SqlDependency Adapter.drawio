@@ -1,20 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T13:04:21.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="CEQsiieln02h-SPv9mTR" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T13:11:39.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="1AkGLdgPWHQ0Tg5ay4-f" version="21.6.8" type="github">
   <diagram name="Page-1" id="QJOEYCSLqYLVN1eVIgFy">
     <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8JrtuuLw-dLxMZOL-CEo-2" value="AsBank Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="740" y="170" width="140" height="210" as="geometry" />
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-2" value="&lt;b&gt;AsBank &lt;/b&gt;Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="700" y="70" width="140" height="210" as="geometry" />
         </mxCell>
         <mxCell id="8JrtuuLw-dLxMZOL-CEo-3" value="Accounts &lt;br&gt;Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8JrtuuLw-dLxMZOL-CEo-4" value="SYNCDB Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="340" y="170" width="140" height="210" as="geometry" />
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-4" value="&lt;b&gt;SYNCDB&lt;/b&gt; Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="140" height="210" as="geometry" />
         </mxCell>
         <mxCell id="8JrtuuLw-dLxMZOL-CEo-5" value="AccountModifications &lt;br&gt;Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
+          <mxGeometry x="781" y="570" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="804.5" y="550" as="sourcePoint" />
+            <mxPoint x="804.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8JrtuuLw-dLxMZOL-CEo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8JrtuuLw-dLxMZOL-CEo-11" target="8JrtuuLw-dLxMZOL-CEo-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-11" value="New Account Added" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8JrtuuLw-dLxMZOL-CEo-11" target="8JrtuuLw-dLxMZOL-CEo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="250" as="targetPoint" />
+            <mxPoint x="805" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8JrtuuLw-dLxMZOL-CEo-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_1-128.png" vertex="1" parent="1">
+          <mxGeometry x="785" y="300" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
